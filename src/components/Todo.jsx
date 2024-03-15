@@ -22,7 +22,7 @@ function Todo() {
   console.log("IB is rendered");
   return (
     <div>
-      <p>Enter Items in List</p>
+      <p>Enter Items in List :</p>
       <InputBox handleTask={handleTask}>
       </InputBox>
       <List tasksArr={tasksArr}
